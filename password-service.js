@@ -4,7 +4,7 @@ const jwt = require('jsonwebtoken');
 
 const app = express();
 const port = 3001;
-const secretKey = 'seuSegredoSuperSecreto';
+const secretKey = 'senhaSegredo';
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));

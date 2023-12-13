@@ -4,7 +4,7 @@ const jwt = require('jsonwebtoken');
 const axios = require('axios');
 const app = express();
 const port = 3000;
-const secretKey = 'seuSegredoSuperSecreto';
+const secretKey = 'senhaSegredo';
 const passwordServiceUrl = 'http://localhost:3001';
 
 app.use(bodyParser.json());
