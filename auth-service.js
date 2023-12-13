@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 
 app.post('/signup', async (req, res) => {
   const { username, password } = req.body;
-  
+  console.log(`Usuário: ${username}`);
   // Lógica para registrar o usuário no banco de dados (simulado por um log)
   console.log(`Usuário registrado: ${username}`);
   
